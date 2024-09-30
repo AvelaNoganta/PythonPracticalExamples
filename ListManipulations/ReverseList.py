@@ -7,13 +7,3 @@ def reverse_list(numbers):
 
     return numbers
 print(reverse_list(numbers))
-
-# option 2
-# Create a list of numbers
-# return a list and start at -1 and step -1
-
-def reverse_list(numbers):
-    return numbers[-1::-1]
-
-print(reverse_list(numbers))
-
